@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      main {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+        padding: 28px;
+      }
+      center {
+        background-color: white;
+        border-radius: 1rem;
+        max-width: 320px;
+        height: 500px;
+        padding: 16px;
+      }
+      center img {
+        border-radius: 0.5rem;
+        display: block;
+        max-width: 100%;
+      }
+      center h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      center p {
+        color: hsl(220, 15%, 55%);
+      }
+      center h1,
+      center p {
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <center>
+        <img src="images/image-qr-code.png" alt="..." />
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to <br />
+          the next level
+        </p>
+      </center>
+    </main>
+  </body>
+</html>
